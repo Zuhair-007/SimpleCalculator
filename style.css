@@ -1,0 +1,43 @@
+.container{
+    position: relative;
+}
+
+.calculator{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    width: 220px;
+}
+
+#txtDisplay{
+    height: 46px;
+    width: 200px;
+    font-size: xxx-large;
+    resize: none;
+    text-align: right;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button{
+    height: 41px;
+    width: 40px;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 4px;
+}
+
+button.operatorbtn{
+    margin-right: 15px;
+}
+
+button.digitbtn, button.clearbtn, button.equalbtn{
+    
+}
+
+
